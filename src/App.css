@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 70%;
+  font-weight: 500;
+}
+
+h1 {
+  margin: 30px auto;
+  color: darkblue;
+  text-align: center;
+  background-color: lightgray;
+}
+.flex-row {
+  display: flex;
+}
+
+.header-text {
+  font-size: 4rem;
+  background-color: rgb(39, 39, 39);
+  text-align: center;
+  color: white;
+}
+/* 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+} */
+.task-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+
+.task1-display {
+  gap: 5px;
+}
+
+.task1-display button {
+  width: 30px;
+}
