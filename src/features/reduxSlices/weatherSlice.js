@@ -14,7 +14,7 @@ export const fetchWeatherCities = createAsyncThunk(
   "fetchWeatherCity",
   async (id) => {
     const response = await fetch(
-      `http://api.weatherapi.com/v1/current.json?key=a05c7c2a2aae40feb82131443230105&q=${id}`
+      `https://api.weatherapi.com/v1/current.json?key=a05c7c2a2aae40feb82131443230105&q=${id}`
     );
     return response.json();
   }
