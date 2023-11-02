@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-
+import axios from "axios";
 // let city = ["Manila", "Paris", "London", "San Francisco"];
 
 //Action
@@ -42,6 +42,7 @@ const weatherSlice = createSlice({
       };
     });
     builder.addCase(fetchWeatherCities.fulfilled, (state, action) => {
+      console.log(action.payload);
       return {
         ...state,
         isLoading: false,

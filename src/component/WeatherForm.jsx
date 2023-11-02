@@ -6,7 +6,7 @@ import LoadingSpinner from "./LoadingSpinner";
 
 export default function WeatherForm() {
   const { data, isLoading } = useSelector((state) => state.weather);
-
+  console.log(data);
   return (
     <>
       <div>
