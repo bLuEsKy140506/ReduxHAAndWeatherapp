@@ -28,11 +28,12 @@ h3 {
   height: 30px;
 }
 
-.dropdwon {
+.dropdown {
   background-color: white;
   display: flex;
   flex-direction: column;
   border: 1px solid gray;
+  font-size: 16px;
 }
 
 .dropdown:empty {

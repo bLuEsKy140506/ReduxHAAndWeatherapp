@@ -32,3 +32,13 @@ li {
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 500px) {
+  .weather-display-container {
+    flex-direction: column;
+  }
+
+  .description li {
+    margin-left: 0px;
+  }
+}
